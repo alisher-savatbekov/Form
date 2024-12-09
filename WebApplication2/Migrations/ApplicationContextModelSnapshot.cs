@@ -36,8 +36,9 @@ namespace WebApplication2.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("role")
-                        .HasColumnType("integer");
+                    b.Property<string>("role")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<string>("username")
                         .IsRequired()

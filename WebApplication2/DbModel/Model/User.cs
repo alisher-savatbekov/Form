@@ -18,6 +18,6 @@ public class User
     [Required]
     public string email { get; set; }
 
-    [Required] public Role role { get; set; } = Role.user;
+    [Required] public string role { get; set; } = Role.user.ToString();
     
 }

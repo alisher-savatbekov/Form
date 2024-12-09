@@ -133,3 +133,6 @@ C:\домашка vs code\Домашка Itransition\WebApplication2\WebApplicat
 C:\домашка vs code\Домашка Itransition\WebApplication2\WebApplication2\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\домашка vs code\Домашка Itransition\WebApplication2\WebApplication2\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\домашка vs code\Домашка Itransition\WebApplication2\WebApplication2\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\домашка vs code\Домашка Itransition\WebApplication2\WebApplication2\bin\Debug\net8.0\JWT.dll
+C:\домашка vs code\Домашка Itransition\WebApplication2\WebApplication2\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\домашка vs code\Домашка Itransition\WebApplication2\WebApplication2\obj\Debug\net8.0\WebApplication2.sourcelink.json

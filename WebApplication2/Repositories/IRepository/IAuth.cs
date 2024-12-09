@@ -5,7 +5,7 @@ namespace WebApplication2.Repositories.IRepository;
 
 public interface IAuth
 {
-    Task<string> JenerateToken(User user);
-    Task RegistrateUser(RegistrDTO registrDto);
+      string JenerateToken(User user);
+     Task RegistrateUser(RegistrDTO registrDto);
     Task<string> LoginUser(LoginDTO loginDto);
 }
