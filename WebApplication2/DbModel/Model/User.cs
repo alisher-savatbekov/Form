@@ -17,11 +17,7 @@ public class User
     
     [Required]
     public string email { get; set; }
-    
-    [Required]
-    public Role role { get; set; }
-     
-    
-   
 
+    [Required] public Role role { get; set; } = Role.user;
+    
 }
