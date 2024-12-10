@@ -8,7 +8,7 @@ namespace WebApplication2.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class AuthController:ControllerBase
+public class AuthController : ControllerBase
 {
 
     private readonly IAuth _authServices;
@@ -25,15 +25,15 @@ public class AuthController:ControllerBase
         try
         {
             /*Cheking type body was arrived*/
-            if (!ModelState.IsValid || model==null)
+            if (!ModelState.IsValid || model == null)
             {
                 throw new Exception("Invalid date");
             }
-            
+
             //Registrate user
             await _authServices.RegistrateUser(model);
             return Ok(new { message = "User was registrated succesfully. " });
-            
+
         }
         catch (Exception e)
         {
@@ -42,9 +42,31 @@ public class AuthController:ControllerBase
     }
 
     [HttpPost("Login")]
-    public async Task<IActionResult> Login([FromBody] LoginDTO)
+    public async Task<IActionResult> Login([FromBody] LoginDTO login)
     {
-        
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+
+        try
+        {
+            var token = await _authServices.LoginUser(login);
+
+            if (string.IsNullOrEmpty(token))
+            {
+                return Unauthorized(new { message = "Invalid credintal" });
+            }
+
+            return Ok(new { token });
+        }
+        catch (Exception e)
+        {
+            return BadRequest(new { message = e.Message });
+        }
     }
+    
+    
+
 
 }

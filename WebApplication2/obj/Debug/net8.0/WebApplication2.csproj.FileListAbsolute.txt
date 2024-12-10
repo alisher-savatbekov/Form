@@ -136,3 +136,9 @@ C:\домашка vs code\Домашка Itransition\WebApplication2\WebApplicat
 C:\домашка vs code\Домашка Itransition\WebApplication2\WebApplication2\bin\Debug\net8.0\JWT.dll
 C:\домашка vs code\Домашка Itransition\WebApplication2\WebApplication2\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\домашка vs code\Домашка Itransition\WebApplication2\WebApplication2\obj\Debug\net8.0\WebApplication2.sourcelink.json
+C:\домашка vs code\Домашка Itransition\WebApplication2\WebApplication2\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\домашка vs code\Домашка Itransition\WebApplication2\WebApplication2\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\домашка vs code\Домашка Itransition\WebApplication2\WebApplication2\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\домашка vs code\Домашка Itransition\WebApplication2\WebApplication2\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\домашка vs code\Домашка Itransition\WebApplication2\WebApplication2\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\домашка vs code\Домашка Itransition\WebApplication2\WebApplication2\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

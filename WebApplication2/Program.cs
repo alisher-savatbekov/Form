@@ -3,12 +3,17 @@ using WebApplication2.DbModel.Db_Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllers();
+
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ApplicationContext>(options=>options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+
 
 var app = builder.Build();
 
