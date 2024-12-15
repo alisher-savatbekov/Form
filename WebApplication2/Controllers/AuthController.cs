@@ -27,7 +27,7 @@ public class AuthController : ControllerBase
             /*Cheking type body was arrived*/
             if (!ModelState.IsValid || model == null)
             {
-                throw new Exception("Invalid date");
+                throw new Exception("Invalid data");
             }
 
             //Registrate user
